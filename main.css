@@ -1,0 +1,10 @@
+/* layout */
+.main__columns{
+    display: flex;
+}
+
+.main__column__lineApps{
+    display: flex;
+}
+
+
