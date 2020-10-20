@@ -14,6 +14,11 @@
     align-items: center;
     justify-content: center;
 }
+.main__column__officialIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* me */
 
@@ -108,4 +113,45 @@
     font-size: 22px;
     background-color: white;
     color: gray;
+}
+
+/* Friends 37 */
+
+
+.main__columns__column.friend{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main__column__friendHead{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main__column__officialIcon i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #1ACA3E;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.main__officialText__head{
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 50px;
+    width: 220px;
+}
+.main__column__number{
+    color: gray;
+}
+.main__column__officialArrow i{
+    background-color: white;
+    color: gray;
+    font-size: 22px;
+    width: 100%;
 }
