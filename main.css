@@ -9,6 +9,12 @@
     display: flex;
 }
 
+.main__column__groupIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* me */
 
 .main__columns__meIcon i {
@@ -61,3 +67,45 @@
 }
 
 
+/* Groups */
+.main__columns__column.group{
+    margin-left: 10px;
+}
+
+.main__column__groupHead{
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.main__column__groupIcon i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #3385FF;
+    color: white;
+    border-radius: 50%;
+}
+
+.main__column__groupText{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.main__groupText__head{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.main__groupText__info{
+    font-size: 12px;
+    color: gray;
+}
+
+.main__column__groupArrow i{
+    font-size: 22px;
+    background-color: white;
+    color: gray;
+}
