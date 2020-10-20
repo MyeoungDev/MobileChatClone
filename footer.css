@@ -1,0 +1,47 @@
+/* layout */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 0.1px solid lightgray;
+    padding-top: 10px;
+}
+.footer__columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* style */
+
+.footer{
+    margin-top: 30px;
+    /* margin-bottom: 100px; */
+}
+
+.footer__column__icon {
+    text-align: center;
+}
+
+.footer__column__icon i{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.footer__column__text{
+    color: gray;
+    font-size: 14px;
+}
+
+.footer__column__icon.user i{
+    font-size: 24px;
+}
+.footer__column__icon.chat i{
+    font-size: 24px;
+}
+.footer__column__icon.timeline i{
+    font-size: 22px;
+}

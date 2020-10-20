@@ -117,7 +117,6 @@
 
 /* Friends 37 */
 
-
 .main__columns__column.friend{
     margin-left: 10px;
     margin-top: 10px;
@@ -155,3 +154,17 @@
     font-size: 22px;
     width: 100%;
 }
+
+/* user */
+
+.main__column__user{
+    margin-top: 10px;
+}
+
+.main__column__user i{
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #AFDADE;
+}
+
