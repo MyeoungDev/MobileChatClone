@@ -1,0 +1,31 @@
+/* layout */
+.main__columns{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-bottom: solid 1px lightgray;
+}
+.main__columns__column div:nth-child(n){
+    margin-bottom: 20px;
+}
+.main__columns__column{
+    display: flex;
+    align-items: center;
+}
+
+
+/* head title style */
+
+.main__column__head{
+    font-size: 14px;
+    color: #5A92C5;
+    font-weight: bold;
+}
+
+/* icon style*/
+
+.main__column__icon{
+    color: gray;
+    margin-right: 25px;
+}
