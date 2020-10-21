@@ -69,3 +69,17 @@
     border: none;
     border-radius: 5px;
 }
+
+
+/* index 2 */
+
+.header.index2 .header__columns.middle{
+    justify-content: unset;
+}
+.header__column__arrow{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
